@@ -7,7 +7,16 @@
 
 import Foundation
 
-class Atleta{
+class Atleta: AlimentoSolido, AlimentoLiquido{
+    
+    func comerCarboidrato() {
+        print("Atleta \(self.nome) vai comer batata doce")
+    }
+    
+    func beberIsotonico() {
+        print("Atleta \(self.nome) vai beber gatorade")
+    }
+    
     var nome:String
     var idade:Int
     var sobrenome:String

@@ -40,3 +40,6 @@ p.nome = "João"
 p.idade = 35
 p.deficiencia = "Braço direito amputado"
 print(p.exibirAtleta())
+
+a2.comerCarboidrato()
+a.beberIsotonico()
