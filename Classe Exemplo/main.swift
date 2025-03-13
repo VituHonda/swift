@@ -27,3 +27,16 @@ var a3: Atleta?
 a3 = Atleta(nome: "Caio", idade: 45, sobrenome: "Santos")
 print("Atleta \(a3!.nome) tem \(a3!.idade) anos")
 a3 = nil
+
+// testando métodos
+a.calculadoraIMC(peso: 60, altura: 1.65)
+print(a.calcularIMC2(peso: 100, altura: 1.87))
+
+print(Atleta.alertar())
+print(Atleta.alertar(tempoEmMinutos: 30))
+
+var p = Paratleta()
+p.nome = "João"
+p.idade = 35
+p.deficiencia = "Braço direito amputado"
+print(p.exibirAtleta())

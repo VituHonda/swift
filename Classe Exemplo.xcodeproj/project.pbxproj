@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AC39FB5D2D7A67790026778B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39FB5C2D7A67790026778B /* main.swift */; };
 		AC39FB642D7A67B40026778B /* Atleta.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39FB632D7A67B40026778B /* Atleta.swift */; };
+		ACF625B32D839E220020EC06 /* Paratleta.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF625B22D839E220020EC06 /* Paratleta.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		AC39FB592D7A67790026778B /* Classe Exemplo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Classe Exemplo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC39FB5C2D7A67790026778B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AC39FB632D7A67B40026778B /* Atleta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atleta.swift; sourceTree = "<group>"; };
+		ACF625B22D839E220020EC06 /* Paratleta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paratleta.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				AC39FB5C2D7A67790026778B /* main.swift */,
 				AC39FB632D7A67B40026778B /* Atleta.swift */,
+				ACF625B22D839E220020EC06 /* Paratleta.swift */,
 			);
 			path = "Classe Exemplo";
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			files = (
 				AC39FB642D7A67B40026778B /* Atleta.swift in Sources */,
 				AC39FB5D2D7A67790026778B /* main.swift in Sources */,
+				ACF625B32D839E220020EC06 /* Paratleta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
